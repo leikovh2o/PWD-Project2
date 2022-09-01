@@ -1,0 +1,8 @@
+{
+  "name": "PWD--Project",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "0ff6faee"
+}
