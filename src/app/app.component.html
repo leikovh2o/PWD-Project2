@@ -13,6 +13,15 @@
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
+        
+        <ion-list id="inbox-list" class="notificationTab">
+          <ion-menu-toggle auto-hide="false">
+            <ion-item routerDirection="root" [routerLink]="'/notifications'" lines="none" detail="false" routerLinkActive="selected">
+              <ion-icon slot="start" [ios]="'alert' + '-outline'" [md]="'alert' + '-sharp'"></ion-icon>
+              <ion-label>Notifications</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
 
         <ion-list id="labels-list">
           <ion-list-header>Labels</ion-list-header>

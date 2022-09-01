@@ -15,6 +15,9 @@
   </ion-header>
 
   <div id="container">
+    <ion-button (click)="requestPermission()">Request Permission</ion-button>
+    <ion-button (click)="deleteToken()">Delete Token</ion-button>
+    <br>
     <strong class="capitalize">{{ folder }}</strong>
     <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>

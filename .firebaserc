@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pwd-project-220d5": {
+      "hosting": {
+        "app": [
+          "pwd-project-220d5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pwd-project-220d5"
+  }
+}

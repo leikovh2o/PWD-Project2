@@ -1,6 +1,16 @@
 {
 	"appId": "io.ionic.starter",
-	"appName": "PWD--Project",
+	"appName": "PWD-Project",
 	"webDir": "www",
-	"bundledWebRuntime": false
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"plugins": {
+		"SplashScreen":{
+			"launchShowDuration": 0
+		},
+		"PushNotifications": {
+			"presentationOptions": ["badge", "sound", "alert"]
+		}
+	},
+	"cordova": {}
 }
